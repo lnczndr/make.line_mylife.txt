@@ -1,0 +1,33 @@
+#LANA CAZANDRA U. LEGASPI - BSCPE 1-5
+
+#ASSIGNMENT 4: PROGRAM 3
+
+moredata = "yes"
+while moredata == "yes":
+    user = input("Enter username: ")
+    print ("\nWelcome to the program " + user, "!")
+
+    print ("PROGRAM #3: MYLIFE.TXT".center(50,("-")))
+
+    #PSEUDOCODES
+    #declare function count()
+    def write():
+
+        #opening the list made
+        make_lines = open("mylife.txt", "w")
+
+        #asking to enter lines
+        while True:
+            line = input ("Enter line: ")
+
+            #writing line into the list (txt file)
+            make_lines.write(line)
+
+            #asking if there are more lines
+            more_lines = input ("Are there more lines? (y - yes/n - no): ")
+            if more_lines == "n":
+                break
+    write ()
+
+    print ("\nNOTE: If you wanted to run the program again, strictly answer 'yes' in lowercase. Failure to do so will end the program.\n")
+    moredata = str(input("Would you like to run the program again?: "))
