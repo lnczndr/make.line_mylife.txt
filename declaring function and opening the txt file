@@ -1,0 +1,16 @@
+#LANA CAZANDRA U. LEGASPI - BSCPE 1-5
+
+#ASSIGNMENT 4: PROGRAM 3
+
+#PSEUDOCODES
+
+#declare function count()
+def write():
+
+#opening the list made
+    make_lines = open("mylife.txt", "w")
+#asking to enter lines
+#writing line into the list (txt file)
+#asking if there are more lines
+
+write ()
