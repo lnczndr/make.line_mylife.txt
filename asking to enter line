@@ -15,7 +15,10 @@ def write():
         line = input ("Enter line: ")
 
         #writing line into the list (txt file)
-        make_lines.write(line)
-#asking if there are more lines
+        make_lines.write("\n" line)
 
+        #asking if there are more lines
+        more_lines = input ("Are there more lines? (y - yes/n - no): ")
+        if more_lines == "n":
+            break
 write ()
